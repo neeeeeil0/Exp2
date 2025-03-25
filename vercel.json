@@ -1,10 +1,10 @@
 {
-    "functions": {
-      "api/**/*.php": {
-        "runtime": "vercel-php@0.6.0"
-      }
-    },
-    "routes": [
-      { "src": "/exp2/api/login.php", "dest": "/api/login.php" }
-    ]
-  }
+  "functions": {
+    "api/**/*.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    { "src": "/api/login.php", "dest": "/api/login.php" }
+  ]
+}
